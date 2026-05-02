@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+}
+
+
+
+.site-header {
+    background-color: rgb(249, 244, 220);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    border-bottom-width: 1px;
+    box-shadow: 0px 1px 5px  rgba(0, 0, 0, 0.3);
+
+
+}
+
+. brand-section {
+    position: absolute;
+    
+}
+
+.brand-name {
+    font-family: Haettenschweiler;
+    font-style:italic;
+    font-size: 30px;
+    margin-left: 20px;
+    
+
+}
+
+.brand-statement {
+    font-size: 25px;
+    font-style:oblique;
+    
+
+
+}
+
+.cartoon-brand {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-left: 150px;
+    position: relative;
+;
+
+}
+
+.home-tab {
+    position: relative;
+    margin-left: 150px;
+    font-size: 25px;
+    top: -30px;
+}
+
