@@ -1,0 +1,148 @@
+.card-intro {
+    background-color: rgb(249, 244, 220);
+    box-sizing: border-box;
+    display: block;
+    height: 800px;
+    width: 1000px;
+    margin-left: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 1px 5px  rgba(0, 0, 0, 0.3);
+    
+    
+
+}
+
+.week-recipe-name {
+    padding-inline-start: 20px;
+}
+
+.first-p {
+    padding-inline-start: 20px;
+    line-height: 25px;
+}
+
+.second-p {
+    padding-inline-start: 20px;
+}
+.week-recipe {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.banku-and-okro {
+    height: 550px;
+    width: 1000px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow:hidden;
+    
+}
+
+.container-okro {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "box-1 box-1"
+    "box-2 box-3";
+    overflow: hidden;
+
+    
+
+    height: 700px;
+    width: 1000px;
+    background-color: rgb(249, 244, 220);
+    margin-left: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+    
+
+    box-shadow: 0px 1px 5px  rgba(0, 0, 0, 0.3);
+    
+}
+
+.title-ingredients-okro {
+    font-size: 40px;
+    grid-area: box-1;
+    text-align: center;
+    padding-top: 40px;
+}
+    
+    
+
+
+.okro-ingredients-list {
+    line-height: 30px;
+    font-size: 20px;
+    grid-area: box-2;
+    
+    
+}
+
+.okro-ingredients-pic {
+    height: 500px;
+    object-fit: cover;
+    grid-area: box-3;
+
+}
+
+.okra-instructions-container {
+    background-color: rgb(249, 244, 220);
+    width: 1000px;
+    margin-left: 400px;
+    box-shadow: 0px 1px 5px  rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    
+
+
+}
+
+.instruction-statement {
+    font-size: 40px;
+    padding-top: 40px;
+    text-align: center;
+    
+
+}
+
+.okra-steps-list{
+    line-height: 30px;
+    height: 450px;
+
+
+}
+
+.banku-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    border-style: solid;
+}
+
+.banku-intro {
+
+}
+
+.banku-ingredients {
+
+}
+
+.title-ingredients-banku {
+
+}
+
+.banku-ingredients-list {
+
+}
+
+.banku-instruction {
+
+}
+
+.banku-steps-list {
+
+}
