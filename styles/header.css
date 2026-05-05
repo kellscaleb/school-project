@@ -30,9 +30,19 @@ body {
     font-style:italic;
     font-size: 30px;
     margin-left: 20px;
+    text-decoration: none;
+    color: black; 
+    transition: color 0.3s ease;
+
+    }
+
+    .brand-name:hover {
+        color: blue;
+    }
+
     
 
-}
+
 
 .brand-statement {
     font-size: 25px;
@@ -57,5 +67,12 @@ body {
     margin-left: 150px;
     font-size: 25px;
     top: -30px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.home-tab:hover {
+    color: blue;
 }
 
